@@ -15,9 +15,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        if (!Helper::isLatestMysqlVersion()) {
-            Schema::defaultStringLength(191);
-        }
+        #if (!Helper::isLatestMysqlVersion()) {
+        #    Schema::defaultStringLength(191);
+        #}
+        Schema::defaultStringLength(191);
 
         if ($this->app->runningInConsole()) {
             Blueprint::mixin(new BluePrintMaxin());

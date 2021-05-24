@@ -88,6 +88,7 @@ vendor/bin/phpunit
 * [rap2hpoutre/laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer) - Laravel log viewer.
 * [coderello/laravel-passport-social-grant](https://github.com/coderello/laravel-passport-social-grant) - API authentication via social networks for your Laravel application.
 * [flipboxstudio/lumen-generator](https://github.com/flipboxstudio/lumen-generator) - Add Lumen missing generator.
+* [laravel/sail](https://github.com/laravel/sail) - Docker development environment integrated to Laravel.
 
 See also the list of [contributors](https://github.com/lloricode/lumen-boilerplate/graphs/contributors) who participated in this project.
 
